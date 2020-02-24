@@ -7,7 +7,7 @@ do
 	cat servers.txt | grep DSL > dsl_servers
 	cat servers.txt | grep etgear > netgear_servers
 	cat servers.txt | grep ogin > login_sites
-	cat servers.txt | grep IIS > ISS 
+	cat servers.txt | grep TL- > TL
 	cat ISS | awk ' { print $1 } ' > bluekeep
 	cat *_servers | awk ' { print $1 } ' > ROUTERS.lst
 done
